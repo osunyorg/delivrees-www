@@ -1,0 +1,61 @@
+.hero
+    .content
+        hgroup.has-lead > p
+            font-family: $body-font-family
+
+
+.events-calendar .calendar-month tbody a,
+.events-calendar .calendar-month caption a
+    color: var(--color-text)
+.events-calendar .calendar-month caption a
+    @include link
+
+.posts,
+.events
+    .media
+        img
+            aspect-ratio: 1
+            object-fit: cover
+.events
+    &--large
+        .event
+            .event-title,
+            .event-subtitle
+                font-weight: bold !important
+            .event-dates
+                @include in-page-without-sidebar
+                    @include small
+
+.toc.toc-pages
+    ol li a.active
+        position: relative
+        &::after
+            content: '—'
+            display: inline-block
+            margin-left: $spacing-1
+
+.block-persons
+    .person-name
+        font-family: $body-font-family !important
+
+@include media-breakpoint-up(desktop)
+    footer#document-footer
+        .footer-logo
+            margin-left: auto
+            margin-right: auto
+        .container:nth-child(2)
+            flex-direction: column-reverse
+            align-items: center
+        .site-links
+            margin-bottom: $spacing-4
+        .site-links,
+        .footer-legals,
+        .nav-legal
+            display: flex
+            gap: $spacing-3
+        .nav-legal,
+        .site-links
+            li + li
+                margin-top: 0 !important
+        .footer-credit
+            margin-top: 0
