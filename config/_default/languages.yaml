@@ -9,6 +9,17 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        facebook:
+          label: >-
+            SalonDelivrees
+          value: >-
+            https://www.facebook.com/SalonDelivrees
+        instagram:
+          label: >-
+            salon_delivrees
+          value: >-
+            https://instagram.com/salon_delivrees
 
   permalinks:
     events: /agenda/:year/:slug/
@@ -17,6 +28,8 @@ fr:
     pages_categories: /:slug/
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
+    organizations: /organisations/:slug/
+    organizations_categories: /organisations/categories/:slug/
   taxonomies:
     administrator: administrators
     author: authors
