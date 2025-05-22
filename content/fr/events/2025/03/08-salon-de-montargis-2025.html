@@ -15,7 +15,7 @@ meta:
     slug: "salon-de-montargis-2025"
   dates:
     created_at: 2025-05-22T23:57:39+02:00
-    updated_at: 2025-05-22T23:59:36+02:00
+    updated_at: 2025-05-23T00:16:55+02:00
     published_at: 2025-05-22T23:57:39+02:00
 search:
   id: "017c818a-540c-4229-a5d9-f93c4fe42169"
@@ -27,7 +27,7 @@ search:
   summary: >-
     <p>Rencontres, dédicaces, lectures</p>
   body: >-
-    
+    <p>Un événement organisé par  <br> Partenaire de l'édition  <br> Le lieu  </p>
 
 breadcrumbs:
   - title: >-
@@ -42,7 +42,7 @@ breadcrumbs:
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 date: "2025-03-08"
@@ -96,10 +96,29 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 0
+  seconds: 3
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: title
+    title: >-
+      Un événement organisé par
+    slug: >-
+      un-evenement-organise-par
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Un événement organisé par
+        heading: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: organizations
     title: >-
@@ -107,7 +126,8 @@ contents:
     slug: >-
       
     ranks:
-      base: 2
+      base: 3
+      children: 3
     top:
       active: false
     data:
@@ -121,6 +141,116 @@ contents:
         summary: false
 
       organizations:
+        - permalink: "/organisations/clara-magazine/"
+          path: "/organizations/clara-magazine"
+          slug: "clara-magazine"
+          file: "content/fr/organizations/clara-magazine.html"
+        - permalink: "/organisations/femmes-solidaires-du-montargois/"
+          path: "/organizations/femmes-solidaires-du-montargois"
+          slug: "femmes-solidaires-du-montargois"
+          file: "content/fr/organizations/femmes-solidaires-du-montargois.html"
+
+
+  - kind: block
+    template: title
+    title: >-
+      Partenaire de l'édition
+    slug: >-
+      partenaire-de-l-edition
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Partenaire de l'édition
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+    data:
+      layout: grid
+      description: >-
+        
+
+      options:
+        link: true
+        logo: true
+        summary: false
+
+      organizations:
+        - permalink: "/organisations/daruma-shop/"
+          path: "/organizations/daruma-shop"
+          slug: "daruma-shop"
+          file: "content/fr/organizations/daruma-shop.html"
+        - permalink: "/organisations/librairie-des-ecoles/"
+          path: "/organizations/librairie-des-ecoles"
+          slug: "librairie-des-ecoles"
+          file: "content/fr/organizations/librairie-des-ecoles.html"
+        - permalink: "/organisations/librairie-du-herisson/"
+          path: "/organizations/librairie-du-herisson"
+          slug: "librairie-du-herisson"
+          file: "content/fr/organizations/librairie-du-herisson.html"
+
+
+  - kind: block
+    template: title
+    title: >-
+      Le lieu
+    slug: >-
+      le-lieu
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Le lieu
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+    data:
+      layout: map
+      description: >-
+        
+
+      options:
+        link: true
+        logo: true
+        summary: false
+
+      organizations:
+        - permalink: "/organisations/salle-des-fetes-de-montargis/"
+          path: "/organizations/salle-des-fetes-de-montargis"
+          slug: "salle-des-fetes-de-montargis"
+          file: "content/fr/organizations/salle-des-fetes-de-montargis.html"
 
 
 
