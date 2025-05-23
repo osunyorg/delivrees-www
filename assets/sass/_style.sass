@@ -12,6 +12,10 @@
     .content
         hgroup.has-lead > p
             font-family: $body-font-family
+    .events__page &
+        .taxonomies-single
+            a
+                @include link(var(--color-text))
 
 
 .events-calendar .calendar-month tbody a,
@@ -51,6 +55,7 @@
     &-chapter--accent_background
         .text p
             @include lead-hero
+            font-family: $heading-font-family
             @include media-breakpoint-up(xxl)
                 @include lead
 
