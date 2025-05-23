@@ -34,9 +34,13 @@
             display: inline-block
             margin-left: $spacing-1
 
-.block-persons
-    .person-name
-        font-family: $body-font-family !important
+.block
+    &-persons
+        .person-name
+            font-family: $body-font-family !important
+    &-chapter--accent_background
+        .text p
+            @include lead-hero
 
 @include media-breakpoint-up(desktop)
     footer#document-footer
