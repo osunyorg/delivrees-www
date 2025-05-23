@@ -1,3 +1,16 @@
+.menu .nav-level-1 
+    @include media-breakpoint-up(desktop)
+        > li 
+            > a,
+            > span
+                    font-family: $italic-font-family
+        .nav-level-2 
+            @include grid(2)
+            > li + li
+                margin-top: 0 !important
+            span
+                font-family: $italic-font-family
+
 .hero
     .content
         hgroup.has-lead > p
@@ -27,23 +40,28 @@
                     @include small
 
 .toc.toc-pages
-    ol li a.active
-        position: relative
-        &::after
-            content: '—'
-            display: inline-block
-            margin-left: $spacing-1
+    ol li a
+        @include meta
+        &.active
+            font-family: $italic-font-family
 
 .block
     &-persons
         .person-name
             font-family: $body-font-family !important
+        .avatar
+            border-radius: 0
     &-chapter--accent_background
         .text p
             @include lead-hero
+            @include media-breakpoint-up(xxl)
+                @include lead
 
-@include media-breakpoint-up(desktop)
-    footer#document-footer
+footer#document-footer
+    .site-links
+        a
+            font-family: $italic-font-family
+    @include media-breakpoint-up(desktop)
         .footer-logo
             margin-left: auto
             margin-right: auto
