@@ -8,6 +8,46 @@ items:
   children: []
   path: "/events"
   file: content/fr/events/_index.html
+- title: Éditions
+  target: ''
+  kind: blank
+  new_tab: false
+  children:
+  - title: Paris
+    target: ''
+    kind: blank
+    new_tab: false
+    children:
+    - title: 3e édition
+      target: "/agenda/2024/3e-edition/"
+      kind: url
+      new_tab: false
+      children: []
+    - title: 4ème édition
+      target: "/agenda/2025/4e-edition/"
+      kind: url
+      new_tab: false
+      children: []
+  - title: En région
+    target: ''
+    kind: blank
+    new_tab: false
+    children:
+    - title: Arcueil 2025
+      target: "/agenda/2025/salon-darcueil-2025/"
+      kind: url
+      new_tab: false
+      children: []
+    - title: Montargis 2025
+      target: "/agenda/2025/salon-de-montargis-2025/"
+      kind: url
+      new_tab: false
+      children: []
+    - title: Lyon 2025
+      target: "/agenda/2025/salon-de-lyon-2025/"
+      kind: url
+      new_tab: false
+      children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
