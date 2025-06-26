@@ -102,42 +102,6 @@ contents:
       layout: classic
 
 
-  - kind: block
-    template: agenda
-    title: >-
-      
-    slug: >-
-      
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: false
-    data:
-      mode: selection
-      options:
-        categories: true
-        dates: true
-        image: true
-        subtitle: true
-        summary: true
-        status: false
-
-      layout: large
-      description: >-
-        
-
-      no_event_message: >-
-        
-
-      title_link: ""
-      events:
-        - permalink: "/agenda/2025/salon-darcueil-2025/"
-          path: "/events/2025/05/24-salon-darcueil-2025"
-          slug: "salon-darcueil-2025"
-          file: "content/fr/events/2025/05/24-salon-darcueil-2025.html"
-
-      quantity: 1
 
   - kind: block
     template: title
@@ -264,12 +228,16 @@ contents:
         link: true
         logo: true
         summary: true
+        address: false
 
       organizations:
         - permalink: "/organisations/clara-magazine/"
           path: "/organizations/clara-magazine"
           slug: "clara-magazine"
           file: "content/fr/organizations/clara-magazine.html"
+          role: >-
+            
+
       quantity: 1
 
   - kind: block
@@ -324,6 +292,10 @@ contents:
       active: false
     data:
       mode: all
+      kinds:
+        parent: false
+        child: true
+        recurring: true
       options:
         categories: false
         dates: true
@@ -345,26 +317,38 @@ contents:
           path: "/events/2025/05/25-16-00-feministes-et-journalistes"
           slug: "feministes-et-journalistes"
           file: "content/fr/events/2025/05/25-16-00-feministes-et-journalistes.html"
+          name: >-
+            Féministes et journalistes
         - permalink: "/agenda/2025/salon-darcueil-2025/peppino-et-la-soiree-pyjama-viens-chez-nous-en-guyane/"
           path: "/events/2025/05/25-14-00-peppino-et-la-soiree-pyjama-viens-chez-nous-en-guyane"
           slug: "peppino-et-la-soiree-pyjama-viens-chez-nous-en-guyane"
           file: "content/fr/events/2025/05/25-14-00-peppino-et-la-soiree-pyjama-viens-chez-nous-en-guyane.html"
+          name: >-
+            Peppino et la soirée pyjama, Viens chez nous en guyane
         - permalink: "/agenda/2025/salon-darcueil-2025/detenues-a-ciel-ouvert/"
           path: "/events/2025/05/25-11-00-detenues-a-ciel-ouvert"
           slug: "detenues-a-ciel-ouvert"
           file: "content/fr/events/2025/05/25-11-00-detenues-a-ciel-ouvert.html"
-        - permalink: "/agenda/2025/salon-darcueil-2025/"
-          path: "/events/2025/05/24-salon-darcueil-2025"
-          slug: "salon-darcueil-2025"
-          file: "content/fr/events/2025/05/24-salon-darcueil-2025.html"
+          name: >-
+            Détenues à ciel ouvert
         - permalink: "/agenda/2025/salon-darcueil-2025/resister-pour-la-paix/"
           path: "/events/2025/05/24-16-00-resister-pour-la-paix"
           slug: "resister-pour-la-paix"
           file: "content/fr/events/2025/05/24-16-00-resister-pour-la-paix.html"
+          name: >-
+            Résister pour la paix
         - permalink: "/agenda/2025/salon-darcueil-2025/des-iraniennes-femmes-vie-liberte/"
           path: "/events/2025/05/24-16-00-des-iraniennes-femmes-vie-liberte"
           slug: "des-iraniennes-femmes-vie-liberte"
           file: "content/fr/events/2025/05/24-16-00-des-iraniennes-femmes-vie-liberte.html"
+          name: >-
+            Des Iraniennes : Femmes, Vie, Liberté
+        - permalink: "/agenda/2025/salon-darcueil-2025/antisemitisme-un-meurtre-intime/"
+          path: "/events/2025/05/24-15-00-antisemitisme-un-meurtre-intime"
+          slug: "antisemitisme-un-meurtre-intime"
+          file: "content/fr/events/2025/05/24-15-00-antisemitisme-un-meurtre-intime.html"
+          name: >-
+            Antisémitisme : un meurtre intime
 
       quantity: 6
 
