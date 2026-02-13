@@ -2,64 +2,97 @@
 title: Menu principal
 items:
 - title: Agenda
+  slug: agenda
   target: "/agenda/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
 - title: Éditions
+  slug: editions
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Paris
+    slug: paris
     target: ''
     kind: blank
     new_tab: false
     children:
     - title: 3e édition
+      slug: 3e-edition
       target: "/agenda/2024/3e-edition/"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
     - title: 4ème édition
+      slug: 4eme-edition
       target: "/agenda/2025/4e-edition/"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
+    descendants_targets:
+    - "/agenda/2024/3e-edition/"
+    - "/agenda/2025/4e-edition/"
   - title: En région
+    slug: en-region
     target: ''
     kind: blank
     new_tab: false
     children:
     - title: Arcueil 2025
+      slug: arcueil-2025
       target: "/agenda/2025/salon-darcueil-2025/"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
     - title: Montargis 2025
+      slug: montargis-2025
       target: "/agenda/2025/salon-de-montargis-2025/"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
     - title: Lyon 2025
+      slug: lyon-2025
       target: "/agenda/2025/salon-de-lyon-2025/"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
+    descendants_targets:
+    - "/agenda/2025/salon-darcueil-2025/"
+    - "/agenda/2025/salon-de-lyon-2025/"
+    - "/agenda/2025/salon-de-montargis-2025/"
+  descendants_targets:
+  - ''
+  - "/agenda/2024/3e-edition/"
+  - "/agenda/2025/4e-edition/"
+  - "/agenda/2025/salon-darcueil-2025/"
+  - "/agenda/2025/salon-de-lyon-2025/"
+  - "/agenda/2025/salon-de-montargis-2025/"
 - title: Actualités
+  slug: actualites
   target: "/actualites/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Contact
+  slug: contact
   target: "/contact/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/contact"
   file: content/fr/pages/contact/_index.html
 
