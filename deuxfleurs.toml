@@ -13,3 +13,16 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/agenda/2025/arcueil/"
+to = "/agenda/2025/salon-darcueil-2025/"
+
+[[redirects]]
+from = "/equipe/categories/organisatrice/"
+to = "/equipe/categories/organisatrice-organisateur/"
+
+[[redirects]]
+from = "/organisations/categories/lieux/"
+to = "/organisations/categories/lieux-daccueil/"
+
