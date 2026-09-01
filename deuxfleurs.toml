@@ -23,6 +23,10 @@ from = "/equipe/categories/organisatrice/index.html"
 to = "/equipe/categories/organisatrice-organisateur/"
 
 [[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/cp-delivrees-24-sportpdf/"
+
+[[redirects]]
 from = "/organisations/categories/lieux/index.html"
 to = "/organisations/categories/lieux-daccueil/"
 
